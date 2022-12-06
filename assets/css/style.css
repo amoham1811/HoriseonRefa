@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/*styling for the navigation header  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -56,7 +56,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* styling for the main picture */
 .hero {
     height: 800px;
     width: 100%;
@@ -65,12 +65,25 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* default styling for the main body */
 main{
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* default styling for the 3 sections in the main body */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+img {
+    max-height: 200px;
+}
+/* next 3 selectors are used to position the pictures in the main body */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -80,7 +93,7 @@ main{
     float: right;
     margin-left: 25px;
 }
-
+/* default styling for the side articles */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -102,19 +115,7 @@ article{
     margin: 10px auto;
     max-width: 150px;
 }
-
-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-img {
-    max-height: 200px;
-}
-
+/* default styling for the page footer */
 footer {
     padding: 30px;
     clear: both;
